@@ -1,0 +1,169 @@
+/** 
+    * *Overview
+    * !Font Family
+    * *Primary="Raleway"
+    * *Secondary="Open Sans"
+    */
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+*, ::before, ::after {
+  box-sizing: inherit;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  width: 100%;
+  text-align: center;
+}
+
+.wrapper {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.flex-jc-c-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-jc-c {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-jc-sb {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-ai-c {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 63.9375em) {
+  .hide-for-mobile {
+    display: none;
+  }
+}
+
+@media (min-width: 64em) {
+  .hide-for-desktop {
+    display: none;
+  }
+}
+
+:root {
+  --clr-header-600: hsl(19, 89%, 59%);
+  --clr-header-secondary-600: hsl(19, 89%, 59%);
+  --clr-primary-700: hsl(300, 43%, 22%);
+  --clr-primary-300: hsl(180, 100%, 50%);
+  --clr-neutral-500: hsl(303, 10%, 53%);
+  --clr-neutral-400: hsl(300, 24%, 96%);
+  --clr-neutral-100: hsl(0, 0%, 100%);
+  --clr-primaryDark-700:rgb(5, 6, 14);
+  --clr-seconaryDark-700:rgb(61, 66, 99);
+  --clr-primary-700: hsl(0, 0%, 0%);
+  --clr-primary-600: hsl(260, 3%, 17%);
+  --clr-primary-500: hsl(235, 10%, 56%);
+  --clr-gradient: linear-gradient(to bottom, hsl(13, 100%, 64%), hsl(322, 87%, 55%) 100%);
+  --header-color:hsl(0, 0%, 100%);
+  --primary-color:hsl(216, 96%, 42%);
+  --secondary-color: hsla(228, 24%, 96%, 0.623);
+  --text-color: hsl(0, 0%, 35%);
+  --alt-text-color: hsl(0, 0%, 100%);
+  --spacer-margin: 2rem;
+  --spacer-bottom: 2rem;
+  /** 
+  * * Basic Comment
+  * ! Urgent
+  */
+  /**
+  * ! Colors(primary)
+  */
+  --darkBlue1: hsl(217, 28%, 15%);
+  --darkBlue2: hsl(218, 28%, 13%);
+  --darkBlue3: hsl(216, 53%, 9%);
+  --darkBlue4: hsl(219, 30%, 18%);
+  /**
+  * ! Colors(accent)
+  */
+  --Cyan: hsl(176, 68%, 64%);
+  --Blue: hsl(198, 60%, 50%);
+  --lightRed: hsl(0,100%, 63%);
+  /** 
+  * *Overview
+  * !Font Family
+  * *Primary="Raleway"
+  * *Secondary="Open Sans"
+  */
+  --ff-primary: "Raleway", sans-serif;
+  --ff-secondary: "Open Sans", sans-serif;
+  --fs-base: 0.875rem;
+  --fs-sm: 0.571rem;
+  --fs-lg: 0.857em;
+  --fs-2xl: 1.285rem;
+  --fs-3xl: 1.5rem;
+  --fs-4xl: 2.5rem;
+  --fs-md: 0.714rem;
+  --fs-base: 0.875em;
+  --fs-xl: 1.143rem;
+  /** 
+  * !Line Heigt
+  */
+  --lh-base: 0.714rem;
+  --lh-sm: 0.857rem;
+  --lh-md: 1.29rem;
+  --lh-lg: 1.5rem;
+  --lh-xl: 1.7rem;
+  --lh-2xl: 2.57rem;
+  /** 
+  * !Spacer
+  */
+  --spacer: 1.71rem 1.43rem 4.57rem 1.43rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+a, a:active, a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul, li {
+  list-style: none;
+}
+
+.navbar {
+  margin-bottom: 2rem;
+}
+
+.search {
+  font-size: 1.5rem;
+  margin: 0;
+  padding: 0;
+}

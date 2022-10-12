@@ -1,0 +1,47 @@
+{
+    "codeswitching": {
+        "posts": [
+            {
+                "id": "1",
+                "title": "Code Switching",
+                "intro": "Learn how to code switch between different languages and frameworks.",
+                "head1": "Why Code Switching?",
+                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Hac habitasse platea dictumst quisque sagittis purus sit. Nullam non nisi est sit. Massa tempor nec feugiat nisl. Malesuada nunc vel risus commodo viverra. Sed ullamcorper morbi tincidunt ornare. Volutpat blandit aliquam etiam erat. Pellentesque habitant morbi tristique senectus et netus. Sit amet consectetur adipiscing elit ut aliquam purus. Elit at imperdiet dui accumsan sit amet. Dolor sit amet consectetur adipiscing elit ut aliquam. Id ornare arcu odio ut sem nulla pharetra diam. Vulputate enim nulla aliquet porttitor lacus. Commodo viverra maecenas accumsan lacus vel facilisis.",
+                "head2": "What is Code Switching?",
+                "conclusion": "Apellentesque habitant morbi tristique senectus et."
+                
+            }
+        ]
+    },
+    "podcast": {
+        "posts": [
+            {
+                "id": "2",
+                "title": "Start Express App",
+                "intro": "Learn how to code switch between different languages and frameworks.",
+                "head1": "Why Code Switching?",
+                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Hac habitasse platea dictumst quisque sagittis purus sit. Nullam non nisi est sit. Massa tempor nec feugiat nisl. Malesuada nunc vel risus commodo viverra. Sed ullamcorper morbi tincidunt ornare. Volutpat blandit aliquam etiam erat. Pellentesque habitant morbi tristique senectus et netus. Sit amet consectetur adipiscing elit ut aliquam purus. Elit at imperdiet dui accumsan sit amet. Dolor sit amet consectetur adipiscing elit ut aliquam. Id ornare arcu odio ut sem nulla pharetra diam. Vulputate enim nulla aliquet porttitor lacus. Commodo viverra maecenas accumsan lacus vel facilisis.",
+                "head2": "What is Code Switching?",
+                "conclusion": "Apellentesque habitant morbi tristique senectus et."
+                
+            }
+        ]
+    },
+    "mightyharvest": {
+        "name": "Mighty Harvest",
+        "subscribers": 44002,
+        "description": "Feeding many villages and village idiots for 10s of days.",
+        "posts": [
+            {
+                "title": "My first meyer lemon ripened today. Im so proud of the little guy. Banana for scale",
+                "author": "proudmamma",
+                "img": "https://preview.redd.it/1bz6we4j54941.jpg?width=640&crop=smart&auto=webp&s=a036ea99299f7737efde9f6c3bfa43893f5eaa00"
+            },
+            {
+                "title": "I think I overestimated the harvest basket size I needed.",
+                "author": "grower123",
+                "img": "https://preview.redd.it/4h99osd25i351.jpg?width=640&crop=smart&auto=webp&s=d651250a345bbceeba7a66632e8c52a02d71bc73"
+            }
+        ]
+    }
+}

@@ -1,0 +1,88 @@
+:root {
+   
+    // Colors
+        --clr-header-600: hsl(19, 89%, 59%);
+        --clr-header-secondary-600: hsl(19, 89%, 59%);
+        --clr-primary-700: hsl(300, 43%, 22%);
+        --clr-primary-300: hsl(180, 100%, 50%);
+    
+        --clr-neutral-500: hsl(303, 10%, 53%);
+        --clr-neutral-400: hsl(300, 24%, 96%);
+        --clr-neutral-100: hsl(0, 0%, 100%);
+    
+        --clr-primaryDark-700:rgb(5, 6, 14);
+        --clr-seconaryDark-700:rgb(61, 66, 99);
+        --clr-primary-700: hsl(0, 0%, 0%);
+        --clr-primary-600: hsl(260, 3%, 17%);
+        --clr-primary-500: hsl(235, 10%, 56%);
+        --clr-gradient: linear-gradient(to bottom, hsl(13, 100%, 64%), hsl(322, 87%, 55%) 100%);
+        --header-color:hsl(0, 0%, 100%);
+        --primary-color:hsl(216, 96%, 42%);
+        --secondary-color: hsla(228, 24%, 96%, 0.623);
+        --text-color: hsl(0, 0%, 35%);
+        --alt-text-color: hsl(0, 0%, 100%); 
+      // Spacers
+    
+        --spacer-margin: 2rem;// margin right and margin left
+        --spacer-bottom: 2rem; // margin bottom;
+    
+    
+    
+        /** 
+      * * Basic Comment
+      * ! Urgent
+      */
+      
+      /**
+      * ! Colors(primary)
+      */
+      --darkBlue1: hsl(217, 28%, 15%); //(intro and email sign up background)
+      --darkBlue2: hsl(218, 28%, 13%); //(main background)
+      --darkBlue3: hsl(216, 53%, 9%); //(footer background)
+      --darkBlue4: hsl(219, 30%, 18%);//(testimonials background)
+    /**
+    * ! Colors(accent)
+    */
+      --Cyan: hsl(176, 68%, 64%); //(inside call-to-action gradient)
+      --Blue: hsl(198, 60%, 50%); //(inside call-to-action gradient)
+      --lightRed: hsl(0,100%, 63%); //(error)
+    
+    /** 
+    * *Overview
+    * !Font Family
+    * *Primary="Raleway"
+    * *Secondary="Open Sans"
+    */
+      --ff-primary: "Raleway", sans-serif;
+      --ff-secondary: "Open Sans", sans-serif;
+    
+      // Raleway
+      --fs-base: 0.875rem;
+      --fs-sm: 0.571rem;
+      --fs-lg: 0.857em;
+      --fs-2xl: 1.285rem;
+      --fs-3xl: 1.5rem;
+      --fs-4xl: 2.5rem;
+    
+      // Open Sans
+      --fs-md: 0.714rem;
+      --fs-base: 0.875em;
+      --fs-xl: 1.143rem;
+      
+    /** 
+    * !Line Heigt
+    */
+      // Line Height
+      --lh-base: 0.714rem;
+      --lh-sm: 0.857rem;
+      --lh-md: 1.29rem;
+      --lh-lg: 1.5rem;
+      --lh-xl: 1.7rem;
+      --lh-2xl: 2.57rem;
+    /** 
+    * !Spacer
+    */
+    
+      --spacer: 1.71rem 1.43rem 4.57rem 1.43rem;
+
+    }
