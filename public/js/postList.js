@@ -15,7 +15,7 @@ export class PostList extends HTMLElement {
         this.shadowRoot.innerHTML = `
             <div class="post-list">
                 ${this.#posts.map(post => `
-                    <my-post title="${post.title}" description="${post.description}"></my-post>
+                    <my-post title="${post.title}" link="${post.link}" timestamp=${post.timestamp}></my-post>
                 `).join('')}
             </div>
         `;

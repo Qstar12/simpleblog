@@ -16,6 +16,18 @@ app.get('/', (req, res, next) => {
         res.send('Sorry, no data found');
     }
 })
+
+app.get('/codeswitching', (req, res, next)=> {
+    const data = myData['codeswitching'];
+    res.render('codeswitching', {...data});
+    if(data){
+        console.log('--data', data);
+        next();
+    }else{
+        res.send('Sorry, no data found');
+    }
+})
 app.listen(3000, () => {
     console.log('Server is running on port 3000');
+ 
 })

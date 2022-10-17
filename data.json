@@ -3,6 +3,7 @@
         "posts": [
             {
                 "id": "1",
+                "img": "https://preview.redd.it/1bz6we4j54941.jpg?width=640&crop=smart&auto=webp&s=a036ea99299f7737efde9f6c3bfa43893f5eaa00",
                 "title": "Code Switching",
                 "intro": "Learn how to code switch between different languages and frameworks.",
                 "head1": "Why Code Switching?",
