@@ -3,7 +3,7 @@
   // stylesheet
 }
 
-//640ps, 1024px, 1400px
+//640px, 1024px, 1400px
 $breakpoints-up: (
   "medium": "40em",
   "large": "64em",
@@ -49,7 +49,7 @@ body {
     font-size: 1.6rem;
     line-height: 1.5;
     width: 100%;
-    text-align: center;
+    
 
 }
 
@@ -94,6 +94,17 @@ body {
     //hide for desktop
     @include breakpoint-up(large) {
       display: none;
+    }
+  }
+
+  .split-for-desktop {
+    //hide for desktop
+    @include breakpoint-up(large) {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 2rem;
+      max-width: 120rem;
+
     }
   }
   

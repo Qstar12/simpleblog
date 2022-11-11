@@ -3,32 +3,11 @@
 <%- include ('globals/head') %>
 <%- include ('globals/navbar') %>
 <body>
-
-    <!-- <div class="container">
-        <div class="row justify-content-between flex-ai-c">
-            <div class="col-4">
-                <h1 class="search">Home</h1>
-            </div>
-
-         
-            <div class="row">
-                <div class="col-4">
-                    <div class="latest">
-                        <div class="btn btn-light">Latest</div>
-                    </div>
-                </div>
-                <div class="col-4">
-                    <div class="Popular">
-                        <div class="btn btn-dark">Popular</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-   
-      
-    <post-list id="post"></post-list>
     
+    <div class="split-for-desktop">
+        <overview-content id="post"></overview-content>
+        <hero-element></hero-element>    
+    </div>
     
 </body>
 </html>
