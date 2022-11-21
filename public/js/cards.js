@@ -36,6 +36,7 @@ export class Cards extends HTMLElement {
     get template(){
         return `
         ${this.style}
+        <div class="wrapper">
         <div class="card">
             <div class="card-title">
                 <h2>${this.title}</h2>
@@ -44,31 +45,47 @@ export class Cards extends HTMLElement {
                 <p>${this.description}</p>
             </div>
         </div>
+        </div>
         `;
     }
 
     get style(){
         return `
             <style>
+            
+            .wrapper {
+                padding: 1rem;
+            }
                 .card{
                     display: flex;
                     flex-direction: column;
-                    justify-content: center;
                     align-items: center;
                     width: 100%;
+                    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+               
+                 
                     
                 }
                 .card-title{
                     display: flex;
-                    justify-content: center;
                     align-items: center;
                     width: 100%;
+                    font-size: 1.5rem;
+                    font-weight: 600;
+                    margin-left: 1rem;
+                }
+
+                .card-title h2 {
+                    margin-bottom: 0;
                 }
                 .card-description{
                     display: flex;
-                    justify-content: center;
                     align-items: center;
                     width: 100%;
+                    font-size: 1rem;
+                    font-weight: 400;
+                    margin-left: 1rem;
+                
                    
                 }
 

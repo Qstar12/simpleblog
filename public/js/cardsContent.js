@@ -25,15 +25,7 @@ export class CardsContent extends HTMLElement {
     get style(){
         return `
             <style>
-                .card-list{
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: center;
-                    align-items: center;
-                    width: 100%;
-                    color: red;
-                    height: 100%;
-                }
+               
             </style>
         `;
     }
