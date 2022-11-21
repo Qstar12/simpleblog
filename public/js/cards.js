@@ -7,7 +7,7 @@ export class Cards extends HTMLElement {
         this.render();
     }
 
-    get ObservedAttributes() {
+    static get observedAttributes() {
         return ['title', 'description'];
     }
 
