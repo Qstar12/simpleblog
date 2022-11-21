@@ -1,8 +1,10 @@
 import { Overview } from './overview.js';
 import { OverviewContent } from './overviewContent.js';
 import { Hero } from './hero.js';
+import { Cards } from './cards.js'
+import { CardsContent } from './cardsContent.js';
 const postElement = document.getElementById('post');
-
+const listElement = document.getElementById('list');
 postElement.post = [
     {
         title: 'Hi Im Amario',
@@ -11,3 +13,14 @@ postElement.post = [
     
     },
 ];
+
+listElement.list = [
+    { 
+        title: "Code Switchin",
+        description: "Blacks have become comfortable change the way they spek in order to fit in around people from different races and cultural background."
+    },
+    { 
+        title: "Role Models",
+        description: "The black role model has been removed from our homes and has taken to the streets for acceptance."
+    }
+]

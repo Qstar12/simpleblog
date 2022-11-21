@@ -3,7 +3,6 @@ export class Hero extends HTMLElement {
     image = "https://i.postimg.cc/4yHmGR4F/Amario-Jones-png.png";
     constructor(){
         super();
-        
         this.attachShadow({mode: 'open'});
         this.render();
     }
