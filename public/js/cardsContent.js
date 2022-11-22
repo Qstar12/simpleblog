@@ -16,7 +16,7 @@ export class CardsContent extends HTMLElement {
             ${this.style}
             <div class="card-list">
                 ${this.#lists.map(list => `
-                    <card-element title="${list.title}" description="${list.description}"></card-element>
+                    <card-element title="${list.title}" image="${list.image}" description="${list.description}"></card-element>
                 `).join('')}
             </div>
         `;
